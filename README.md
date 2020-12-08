@@ -1,5 +1,6 @@
 # m3u-from-Youtube
-Bash script to create m3u playlists from Youtube playlists or Youtube channels
+Bash script to create m3u playlists from Youtube playlists or Youtube channels    
+Requires `youtube-dl`
 
     Usage: m3ufromyt ./out.m3u
 
