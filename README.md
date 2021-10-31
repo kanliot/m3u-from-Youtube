@@ -19,4 +19,6 @@ Requires `youtube-dl`
     
 #### What this script doesn't do is download videos, or give an .mp4 link to content like `youtube-dl --get-url`
 
+I've mucked around with only creating output for new videos, while halting when older content is reached.   It works fine, but it's not in a shape to publish at this time. 
+
 requires Bash, etc. should run on any Linux. 
