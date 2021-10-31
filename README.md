@@ -12,5 +12,11 @@ Requires `youtube-dl`
     this script is slow on big channels.  about 1000 videos per hour
     option -r allows you to reverse the .m3u playlist
     option -q allows you to make this program quiet
+    
+## All .m3u files output will have these features: 
+    For each video, an INFO line containing duration, date (U.S. order), and title of the youtube video.
+    For each video, location of the content (as a url like http://www.youtube.com/watch?v=KViumtPd5RE ) 
+    
+#### What this script doesn't do is download videos, or give an .mp4 link to content like `youtube-dl --get-url`
 
 requires Bash, etc. should run on any Linux. 
