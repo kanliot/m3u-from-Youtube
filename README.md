@@ -27,6 +27,7 @@ I've mucked around with only creating output for new videos, while halting when 
 requires Bash, etc. should run on any Linux. 
 
 #### An alternative solution 
-pukkandan on reddit points out that 
-    yt-dlp -O "#EXTINF:%(duration)s,%(upload_date>%d/%m/%Y)s %(title)s" -O webpage_url --playlist-end 10 https://www.youtube.com/c/somechannel/videos
+pukkandan on reddit points out that  
+
+    yt-dlp -O "#EXTINF:%(duration)s,%(upload_date>%d/%m/%Y)s %(title)s" -O webpage_url --playlist-end 10 https://www.youtube.com/c/somechannel/videos    
 will work pretty much the same as this script, with the benefit of being a one-liner, and not requiring bash.
